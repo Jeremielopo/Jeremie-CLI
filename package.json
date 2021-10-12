@@ -1,12 +1,13 @@
 {
-  "name": "holidates",
+  "name": "@mirai/holidates",
   "version": "1.0.0",
   "description": "work for becode",
   "main": "index.js",
   "type": "module",
   "bin": {
-    "getDate": "index.js"
+    "holidates": "index.js"
   },
+  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

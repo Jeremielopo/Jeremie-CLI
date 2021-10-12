@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { getCode } from 'country-list';
 import axios from 'axios';
 import ora from 'ora';
@@ -54,27 +56,3 @@ async function fetchHoliday () {
 
 
 
-
-
-// const https = require('https')
-// const options = {
-//   hostname: 'date.nager.at',
-//   port: 443,
-//   path: `/api/v3/CountryInfo/${pays}`,
-//   method: 'GET'
-// }
-
-// const req = https.request(options, res => {
-//   console.log(`statusCode: ${res.statusCode}`)
-
-//   res.on('data', d => {
-//     process.stdout.write(d)
-  
-//   })
-// })
-
-// req.on('error', error => {
-//   console.error(error)
-// })
-
-// req.end()

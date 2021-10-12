@@ -1,0 +1,31 @@
+{
+  "name": "holidates",
+  "version": "1.0.0",
+  "description": "work for becode",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "getDate": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jeremielopo/Jeremie-CLI.git"
+  },
+  "keywords": [
+    "J-C"
+  ],
+  "author": "Mirai-lopo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jeremielopo/Jeremie-CLI/issues"
+  },
+  "homepage": "https://github.com/Jeremielopo/Jeremie-CLI#readme",
+  "dependencies": {
+    "axios": "^0.22.0",
+    "country-list": "^2.2.0",
+    "ora": "^6.0.1"
+  }
+}
